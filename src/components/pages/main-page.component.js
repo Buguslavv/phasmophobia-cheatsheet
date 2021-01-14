@@ -119,16 +119,16 @@ export default class MainGridPage extends Component {
 				<Container style={{ padding:"0", margin:"20px", marginTop: "0px", maxWidth:"100000px"}}>
 					<Row>
 						<Col style={{ textAlign:"center" }}>
-							<b>Leftclick: Select/Unselect Evidence.<br/>Rightclick: Ignore/Unignore Evidence.</b>
+							<b>Lewy przycisk myszy: Zaznacz/odznacz poszlakę.<br/>Prawy przycisk myszy: Zignoruj/odignoruj poszlakę.</b>
 						</Col>
 					</Row>
 					<Row>
 						<Col className={"evidence-header"}>
-							<Button variant="danger" onClick={() => this.props.resetSelected()}>Unselect All Evidence</Button>
+							<Button variant="danger" onClick={() => this.props.resetSelected()}>Odznacz wszystkie poszlaki</Button>
 						</Col>
 					</Row>
 					<Row style={{ width:"100%" }}>
-						<Col className={"evidence-header"}>EVIDENCE</Col>
+						<Col className={"evidence-header"}>POSZLAKI</Col>
 						{columnHeaders}
 					</Row>
 					{grid}
@@ -137,7 +137,7 @@ export default class MainGridPage extends Component {
 						draggable={false}
 						type="checkbox"
 						custom="true"
-						label="Always show all Secondary Evidence"
+						label="Zawsze wyświetlaj dodatkowe poszlaki"
 						checked={this.props.showAllSecondaryEvidence}
 						style={{ margin: "15px"}}
 						onChange={(e) => this.props.toggleSetting("showAllSecondaryEvidence")}

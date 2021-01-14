@@ -21,7 +21,7 @@ import logo from "./images/ghost.svg";
 const BG = "dark"; // primary, dark, light
 const VARIANT = "dark"; // dark, light
 
-const WEBSITE_URL = "un0btanium.github.io/phasmophobia-cheatsheet/";
+const WEBSITE_URL = "buguslavv.github.io/phasmophobia-cheatsheet/";
 
 const PATCH_VERSION = "Post Launch Update #2";
 

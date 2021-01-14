@@ -1,39 +1,37 @@
 var data = {
 	"primaryevidence": [
-		"EMF Level 5",
-		"Fingerprints",
-		"Freezing Temperature",
-		"Ghost Orbs",
-		"Ghost Writing",
+		"EMF 5",
+		"Odciski palców",
+		"Mroźne temperatury",
+		"Orby",
+		"Pismo ducha",
 		"Spirit Box"
 	],
 	"secondaryevidence": [
-		"objects moved at great speeds",
-		"more active when people are nearby",
-		"smudge stick stops attacks for a long time",
-		"flying, no footprints",
-		"toxic reaction to salt",
-		"travelling through walls",
-		"looking at the ghost drops sanity considerably",
-		"taking a photo makes the ghost temporarily disappear",
-		"summoned by a Ouija Board",
-		"possesses the living",
-		"throws multiple objects at once",
-		"targets and hunts one person at a time",
-		"scared off easily by the Crucifix",
-		"territorial ghost that attacks when threatened",
-		"travels fast when victim is far away",
-		"turning off the locations power source slows down ghost movement",
-		"most powerful in the dark",
-		"increased chance of an attack in the dark",
-		"lower chance of an attack when lights are on",
-		"travels at significantly high speeds when hunting",
-		"hiding slows down the ghost significantly",
-		"shy ghost with no activity/hunting when multiple people are nearby",
-		"attacks often and without reason",
-		"sanity is not lowered when asking successful Ouija Board questions",
-		"reduces sanity more quickly",
-		"smudging the room will stop it from wandering around for a long time"
+		"Atakuje powyżej 50% mózgu",
+		"Atakuje powyżej 60% mózgu",
+		"Atakuje powyżej 65% mózgu",
+		"Atakuje od 60% mózgu, gdy w jego pokoju jest wyłączone światło i od 40% gdy światło jest włączone",
+		"Rzuca mocniej (dalej) przedmiotami",
+		"Bardziej aktywny przy większej ilości graczy w pokoju",
+		"Kadzidło zapobiega atakom na 180 sekund (zamiast 90 sekund)",
+		"Nie zostawia śladów po wejściu w sól",
+		"Patrzenie na ducha w zasięgu 10 metrów zmniejsza szybciej mózg (0.4% na sekundę zamiast 0.2%)",
+		"Zrobienie zdjęcia powoduje zniknięcie ducha (poza nawiedzaniem). Na zdjęciu nie jest on widoczny mimo jego zaliczenia",
+		"Jego mocą specjalną jest rzucanie wielu obiektów naraz zmniejszając mózg graczy w pobliżu (ilość rzuconych przedmiotów x 2%)",
+		"Gdy nawiedza obiera za cel tylko jednego gracza",
+		"Ma większy zasięg krucyfiksu (6 metrów zamiast 3)",
+		"Porusza się 2x szybciej od gracza gdy są włączone bezpieczniki i duch znajduje się dalej niż 3 metry od celu",
+		"Lubi elektronikę, częściej przełącza światła, włącza telefony, radia, alarm w samochodzie",
+		"Dużo rzadziej (o ile w ogóle) wyłącza bezpieczniki",
+		"Częściej atakuje gdy w jego pokoju jest wyłączone światło",
+		"Porusza się 2x szybciej od gracza gdy widzi swój cel",
+		"Gdy nikogo nie widzi porusza się 2x wolniej od gracza",
+		"Ma zmniejszoną aktywność gdy w pokoju znajduje się wiele osób",
+		"Nie nawiedza gdy w jego pokoju znajdują się 2 osoby",
+		"Często atakuje",
+		"Nie spada mózg gdy uzyska się odpowiedź na pytanie na Ouija Board",
+		"Użycie kadzidła zapobiega przemieszczaniu się ducha na 90 sekund"
 	],
 	"ghosts": [
 		{
@@ -42,11 +40,11 @@ var data = {
 			"uniquestrength": "",
 			"weaknesses": "",
 			"evidence": [
-				"Fingerprints",
-				"Ghost Writing",
+				"Odciski palców",
+				"Pismo ducha",
 				"Spirit Box",
 				
-				"smudge stick stops attacks for a long time"
+				"Kadzidło zapobiega atakom na 180 sekund (zamiast 90 sekund)"
 			]
 		},
 		{
@@ -55,13 +53,11 @@ var data = {
 			"uniquestrength": "",
 			"weaknesses": "",
 			"evidence": [
-				"Fingerprints",
-				"Freezing Temperature",
+				"Odciski palców",
+				"Mroźne temperatury",
 				"Spirit Box",
 
-				"flying, no footprints",
-				"toxic reaction to salt",
-				"travelling through walls"
+				"Nie zostawia śladów po wejściu w sól"
 			]
 		},
 		{
@@ -70,14 +66,12 @@ var data = {
 			"uniquestrength": "",
 			"weaknesses": "",
 			"evidence": [
-				"EMF Level 5",
-				"Freezing Temperature",
-				"Ghost Orbs",
+				"EMF 5",
+				"Mroźne temperatury",
+				"Orby",
 
-				"looking at the ghost drops sanity considerably",
-				"taking a photo makes the ghost temporarily disappear",
-				"summoned by a Ouija Board",
-				"possesses the living"
+				"Patrzenie na ducha w zasięgu 10 metrów zmniejsza szybciej mózg (0.4% na sekundę zamiast 0.2%)",
+				"Zrobienie zdjęcia powoduje zniknięcie ducha (poza nawiedzaniem). Na zdjęciu nie jest on widoczny mimo jego zaliczenia"
 			]
 		},
 		{
@@ -86,11 +80,12 @@ var data = {
 			"uniquestrength": "",
 			"weaknesses": "",
 			"evidence": [
-				"Fingerprints",
-				"Ghost Orbs",
+				"Odciski palców",
+				"Orby",
 				"Spirit Box",
 
-				"throws multiple objects at once"
+				"Jego mocą specjalną jest rzucanie wielu obiektów naraz zmniejszając mózg graczy w pobliżu (ilość rzuconych przedmiotów x 2%)",
+				"Rzuca mocniej (dalej) przedmiotami"
 			]
 		},
 		{
@@ -99,12 +94,15 @@ var data = {
 			"uniquestrength": "",
 			"weaknesses": "",
 			"evidence": [
-				"EMF Level 5",
-				"Fingerprints",
-				"Freezing Temperature",
+				"EMF 5",
+				"Odciski palców",
+				"Mroźne temperatury",
 
-				"targets and hunts one person at a time",
-				"scared off easily by the Crucifix"
+				"Gdy nawiedza obiera za cel tylko jednego gracza",
+				"Ma większy zasięg krucyfiksu (6 metrów zamiast 3)",
+				"Atakuje powyżej 50% mózgu",
+				"Atakuje powyżej 60% mózgu",
+				"Atakuje powyżej 65% mózgu"
 			]
 		},
 		{
@@ -113,13 +111,13 @@ var data = {
 			"uniquestrength": "",
 			"weaknesses": "",
 			"evidence": [
-				"EMF Level 5",
-				"Ghost Orbs",
+				"EMF 5",
+				"Orby",
 				"Spirit Box",
 				
-				"territorial ghost that attacks when threatened",
-				"travels fast when victim is far away",
-				"turning off the locations power source slows down ghost movement"
+				"Lubi elektronikę, częściej przełącza światła, włącza telefony, radia, alarm w samochodzie",
+				"Dużo rzadziej (o ile w ogóle) wyłącza bezpieczniki",
+				"Porusza się 2x szybciej od gracza gdy są włączone bezpieczniki i duch znajduje się dalej niż 3 metry od celu"
 			]
 		},
 		{
@@ -128,13 +126,13 @@ var data = {
 			"uniquestrength": "",
 			"weaknesses": "",
 			"evidence": [
-				"Freezing Temperature",
-				"Ghost Orbs",
+				"Mroźne temperatury",
+				"Orby",
 				"Spirit Box",
 
-				"most powerful in the dark",
-				"increased chance of an attack in the dark",
-				"lower chance of an attack when lights are on"
+				"Atakuje od 60% mózgu, gdy w jego pokoju jest wyłączone światło i od 40% gdy światło jest włączone",
+				"Częściej atakuje gdy w jego pokoju jest wyłączone światło",
+				"Atakuje powyżej 50% mózgu"
 			]
 		},
 		{
@@ -143,12 +141,12 @@ var data = {
 			"uniquestrength": "",
 			"weaknesses": "",
 			"evidence": [
-				"EMF Level 5",
-				"Fingerprints",
-				"Ghost Writing",
+				"EMF 5",
+				"Odciski palców",
+				"Pismo ducha",
 				
-				"travels at significantly high speeds when hunting",
-				"hiding slows down the ghost significantly"
+				"Porusza się 2x szybciej od gracza gdy widzi swój cel",
+				"Gdy nikogo nie widzi porusza się 2x wolniej od gracza"
 			]
 		},
 		{
@@ -157,11 +155,12 @@ var data = {
 			"uniquestrength": "",
 			"weaknesses": "",
 			"evidence": [
-				"EMF Level 5",
-				"Ghost Orbs",
-				"Ghost Writing",
+				"EMF 5",
+				"Orby",
+				"Pismo ducha",
 
-				"shy ghost with no activity/hunting when multiple people are nearby"
+				"Ma zmniejszoną aktywność gdy w pokoju znajduje się wiele osób",
+				"Nie nawiedza gdy w jego pokoju znajdują się 2 osoby"
 			]
 		},
 		{
@@ -170,12 +169,14 @@ var data = {
 			"uniquestrength": "",
 			"weaknesses": "",
 			"evidence": [
-				"Freezing Temperature",
-				"Ghost Writing",
+				"Mroźne temperatury",
+				"Pismo ducha",
 				"Spirit Box",
 
-				"attacks often and without reason",
-				"sanity is not lowered when asking successful Ouija Board questions"
+				"Często atakuje",
+				"Nie spada mózg gdy uzyska się odpowiedź na pytanie na Ouija Board",
+				"Atakuje powyżej 50% mózgu",
+				"Atakuje powyżej 60% mózgu"
 			]
 		},
 		{
@@ -184,12 +185,12 @@ var data = {
 			"uniquestrength": "",
 			"weaknesses": "",
 			"evidence": [
-				"Freezing Temperature",
-				"Ghost Orbs",
-				"Ghost Writing",
+				"Mroźne temperatury",
+				"Orby",
+				"Pismo ducha",
 
-				"reduces sanity more quickly",
-				"smudging the room will stop it from wandering around for a long time"
+				"Patrzenie na ducha w zasięgu 10 metrów zmniejsza szybciej mózg (0.4% na sekundę zamiast 0.2%)",
+				"Użycie kadzidła zapobiega przemieszczaniu się ducha na 90 sekund"
 			]
 		},
 		{
@@ -198,12 +199,12 @@ var data = {
 			"uniquestrength": "",
 			"weaknesses": "",
 			"evidence": [
-				"EMF Level 5",
-				"Ghost Writing",
+				"EMF 5",
+				"Pismo ducha",
 				"Spirit Box",
 
-				"objects moved at great speeds",
-				"more active when people are nearby"
+				"Rzuca mocniej (dalej) przedmiotami",
+				"Bardziej aktywny przy większej ilości graczy w pokoju"
 			]
 		}
 	],
