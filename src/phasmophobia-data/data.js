@@ -16,12 +16,15 @@ var data = {
 		"Bardziej aktywny przy większej ilości graczy w pokoju",
 		"Kadzidło zapobiega atakom na 180 sekund (zamiast 90 sekund)",
 		"Nie zostawia śladów po wejściu w sól",
+		"Jego specjalna umiejętność pozwala na pojawienie się przy graczu w dowolnym miejscu na mapie, wywołanie EMF oraz (rzadko) nawiedzanie z tego miejsca",
 		"Patrzenie na ducha w zasięgu 10 metrów zmniejsza szybciej mózg (0.4% na sekundę zamiast 0.2%)",
 		"Zrobienie zdjęcia powoduje zniknięcie ducha (poza nawiedzaniem). Na zdjęciu nie jest on widoczny mimo jego zaliczenia",
+		"Slabiej go widac w trakcie hunta, widoczny jest co 1-2 sekundy (standard co 0.3-1 sek)",
 		"Jego mocą specjalną jest rzucanie wielu obiektów naraz zmniejszając mózg graczy w pobliżu (ilość rzuconych przedmiotów x 2%)",
 		"Gdy nawiedza obiera za cel tylko jednego gracza",
 		"Ma większy zasięg krucyfiksu (6 metrów zamiast 3)",
 		"Porusza się 2x szybciej od gracza gdy są włączone bezpieczniki i duch znajduje się dalej niż 3 metry od celu",
+		"Ghost event zjada 25% mozgu zamiast 10%",
 		"Lubi elektronikę, częściej przełącza światła, włącza telefony, radia, alarm w samochodzie",
 		"Dużo rzadziej (o ile w ogóle) wyłącza bezpieczniki",
 		"Częściej atakuje gdy w jego pokoju jest wyłączone światło",
@@ -57,7 +60,8 @@ var data = {
 				"Mroźne temperatury",
 				"Spirit Box",
 
-				"Nie zostawia śladów po wejściu w sól"
+				"Nie zostawia śladów po wejściu w sól",
+				"Jego specjalna umiejętność pozwala na pojawienie się przy graczu w dowolnym miejscu na mapie, wywołanie EMF oraz (rzadko) nawiedzanie z tego miejsca"
 			]
 		},
 		{
@@ -71,7 +75,9 @@ var data = {
 				"Orby",
 
 				"Patrzenie na ducha w zasięgu 10 metrów zmniejsza szybciej mózg (0.4% na sekundę zamiast 0.2%)",
-				"Zrobienie zdjęcia powoduje zniknięcie ducha (poza nawiedzaniem). Na zdjęciu nie jest on widoczny mimo jego zaliczenia"
+				"Zrobienie zdjęcia powoduje zniknięcie ducha (poza nawiedzaniem). Na zdjęciu nie jest on widoczny mimo jego zaliczenia",
+				"Slabiej go widac w trakcie hunta, widoczny jest co 1-2 sekundy (standard co 0.3-1 sek)",
+				"Jego specjalna umiejętność pozwala na pojawienie się przy graczu w dowolnym miejscu na mapie, wywołanie EMF oraz (rzadko) nawiedzanie z tego miejsca"
 			]
 		},
 		{
@@ -117,7 +123,8 @@ var data = {
 				
 				"Lubi elektronikę, częściej przełącza światła, włącza telefony, radia, alarm w samochodzie",
 				"Dużo rzadziej (o ile w ogóle) wyłącza bezpieczniki",
-				"Porusza się 2x szybciej od gracza gdy są włączone bezpieczniki i duch znajduje się dalej niż 3 metry od celu"
+				"Porusza się 2x szybciej od gracza gdy są włączone bezpieczniki i duch znajduje się dalej niż 3 metry od celu",
+				"Ghost event zjada 25% mozgu zamiast 10%"
 			]
 		},
 		{
